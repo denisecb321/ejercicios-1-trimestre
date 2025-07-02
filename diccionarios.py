@@ -31,7 +31,7 @@ print(auto)
 
 auto={"marca":"toyota","modelo":"corolla"}
 del auto["modelo"]
-print(auto)"""
+print(auto)
 
 #--ejemplo3-.pop------------------------------
 
@@ -43,4 +43,4 @@ print(auto)
 #------------------------------
 
 color=auto.pop("color","no especifico")
-print(color)
+print(color)"""

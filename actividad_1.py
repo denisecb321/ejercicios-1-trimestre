@@ -109,9 +109,10 @@ print(f"el resultado es {potencia}")
 
 edad=int(input("ingrese su edad: "))
 
-print(f"tienes {edad} años de edad")"""
+print(f"tienes {edad} años de edad")
 
 
 #----------ejercicio_17------------------------------------------------------------
 
 edad=int(input("ingrese su edad: "))
+print("Tu edad en 10 años será:", edad + 10)"""
