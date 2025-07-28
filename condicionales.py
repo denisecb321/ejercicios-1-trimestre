@@ -383,14 +383,3 @@ elif puntaje <= 79:
 else:
     print("Sobresaliente")
 
-
-
-
-
-
-
-
-
-
-
-
