@@ -222,6 +222,28 @@ else:
 
 #---14
 
+# Se crea una lista con cuatro nombres
+nombres = ["ana", "luis", "pedro", "marta"]
+# Se obtiene el último elemento de la lista usando índice negativo (-1)
+ultimo_nombre = nombres[-1]
+# Se verifica si el último nombre es igual a "marta"
+if ultimo_nombre == "marta":
+    # Si la condición es verdadera, se muestra este mensaje
+    print("nombre correcto")
+else:
+    # Si la condición es falsa, se muestra este mensaje
+    print("nombre diferente")
+
+#---15
+
+# Se crea una lista con tres colores
+colores = ["rojo", "azul", "verde"]
+# Se verifica si el segundo color (índice 1) es igual a "azul"
+if colores[1] == "azul":
+    # Si la condición es verdadera, se cambia el segundo color por "amarillo"
+    colores[1] = "amarillo"
+# Se muestra la lista actualizada
+print(colores)
 
 #---16
 
@@ -232,9 +254,137 @@ tupla = (15, 8, 12, 20)
 if tupla[0] < tupla[-1]:
     print("orden ascendente")  # Si el primer valor es menor, mostramos "orden ascendente"
 else:
-    print("orden descendente")  # Si no, mostramos "orden descendente"""
+    print("orden descendente")  # Si no, mostramos "orden descendente
 
 #---17
+
+# Se define una tupla llamada 'edades' que contiene tres valores enteros
+# Cada posición representa una edad distinta
+edades = (25, 32, 28)
+
+# Se evalúa si el segundo valor de la tupla (índice 1) es mayor que 30
+if edades[1] > 30:
+    # Si la condición es verdadera, se muestra este mensaje en pantalla
+    print("edad mayor a 30")
+else:
+    # Si la condición es falsa, se muestra este mensaje
+    print("edad menor o igual a 30")
+
+#---18
+
+# Se define una tupla con los valores 1, 2 y 3
+numeros = (1, 2, 3)
+# Se convierte la tupla en una lista para poder modificar sus elementos
+lista_numeros = list(numeros)
+# Se verifica si el segundo valor (índice 1) es igual a 2
+if lista_numeros[1] == 2:
+    # Si la condición es verdadera, se cambia el segundo valor a 10
+    lista_numeros[1] = 10
+# Se convierte nuevamente la lista en una tupla
+numeros_actualizados = tuple(lista_numeros)
+
+# Se muestra la tupla resultante
+print(numeros_actualizados)
+
+#---19
+
+# Se define una tupla con dos valores
+coordenadas = (4, 9)
+# Se accede al segundo valor de la tupla (índice 1)
+segundo_valor = coordenadas[1]
+# Se verifica si el segundo valor es mayor que 5
+if segundo_valor > 5:
+    # Si es mayor que 5, se muestra el mensaje correspondiente
+    print("coordenada alta")
+else:
+    # Si no es mayor que 5, se muestra el mensaje correspondiente
+    print("coordenada baja")
+
+#---20
+
+# Se define la primera tupla con los valores 3 y 4
+tupla1 = (3, 4)
+# Se define la segunda tupla con los valores 3 y 5
+tupla2 = (3, 5)
+# Se compara si las dos tuplas son exactamente iguales
+if tupla1 == tupla2:
+    # Si son iguales, se muestra este mensaje
+    print("tuplas iguales")
+else:
+    # Si son diferentes, se muestra este mensaje
+    print("tuplas diferentes")
+
+#---21
+
+# Se crea un diccionario con dos claves: 'nombre' y 'edad'
+persona = {
+    "nombre": "juan",
+    "edad": 17
+}
+# Se accede al valor asociado a la clave 'edad' y se verifica si es mayor o igual a 18
+if persona["edad"] >= 18:
+    # Si la edad es mayor o igual a 18, se muestra este mensaje
+    print("adulto")
+else:
+    # Si la edad es menor a 18, se muestra este mensaje
+    print("menor de edad")
+
+#---22
+
+# Crear un diccionario con las claves 'nombre' y 'edad'
+persona = {
+    "nombre": "lucia",
+    "edad": 20
+}
+# Verificar si la edad es mayor a 18
+if persona["edad"] > 18:
+    # Si es mayor a 18, cambiar el valor de 'edad' a 21
+    persona["edad"] = 21
+# Mostrar el diccionario actualizado
+print(persona)
+
+#---23
+
+# Crear un diccionario con la clave 'nombre'
+persona = {
+    "nombre": "carlos"
+}
+# Verificar si la clave 'ciudad' no existe en el diccionario
+if "ciudad" not in persona:
+    # Si no existe, agregar la clave 'ciudad' con el valor 'bogota'
+    persona["ciudad"] = "bogota"
+# Mostrar el diccionario actualizado
+print(persona)
+
+#---24
+
+# Crear un diccionario con las claves 'producto' y 'precio'
+producto = {
+    "producto": "pan",
+    "precio": 1200
+}
+# Verificar si la clave 'precio' existe en el diccionario
+if "precio" in producto:
+    # Si existe, mostrar su valor
+    print(f"El precio es: {producto['precio']}")
+else:
+    # Si no existe, mostrar un mensaje indicando que no hay precio
+    print("No hay precio")
+
+#---25
+
+# Crear un diccionario con productos y sus precios
+productos = {
+    "pan": 1200,
+    "leche": 2000
+}
+# Verificar si el producto 'pan' está en el diccionario
+if "pan" in productos:
+    # Si está, mostrar su precio
+    print(f"El precio del pan es: {productos['pan']}")
+else:
+    # Si no está, mostrar un mensaje indicando que el producto no está disponible
+    print("Producto no disponible")"""
 
 
 
